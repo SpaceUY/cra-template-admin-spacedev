@@ -1,12 +1,12 @@
 import React from 'react';
 import { Admin } from 'react-admin';
-import jsonServerProvider from 'ra-data-json-server';
+import nestjsxCrudProvider from 'ra-data-nestjsx-crud';
 
 import authProvider from './auth';
 import i18nProvider from './localization';
 import theme from './theme';
 
-const dataProvider = jsonServerProvider('https://jsonplaceholder.typicode.com');
+const dataProvider = nestjsxCrudProvider(process.env.REACT_APP_API_URL);
 
 const App = () => (
   <Admin
