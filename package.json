@@ -11,7 +11,7 @@
     "template",
     "react-admin"
   ],
-  "description": "The official template used by SpaceDev 🚀 for Create React App.",
+  "description": "The official template used by SpaceDev 🚀 for Create React App when building admin or backoffice applications.",
   "main": "template.json",
   "repository": {
     "type": "git",
