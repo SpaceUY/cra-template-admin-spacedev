@@ -1,5 +1,8 @@
 {
   "package": {
+    "scripts": {
+      "lint": "eslint ."
+    },
     "dependencies": {
       "ra-data-nestjsx-crud": "^1.1.5",
       "react-admin": "^3.17.0",
